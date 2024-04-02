@@ -29,6 +29,7 @@ p{
 }
 h2{
     color: blueviolet;
+    text-align: center;
 }
 nav{
     background-color: rgba(0, 0, 0, 0.274);
@@ -50,5 +51,28 @@ nav{
     margin: auto;
     padding: 15px ;
     border-radius: 10px;
-    /* Для кнопочки Click it задать свойства по макету */
 }
+.hero a{
+    display: block;
+    width: 75px;
+    text-align: center;
+    margin: 30px auto;
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 10px;
+}
+.info{
+    background-color: pink;
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.aboutus img{
+    /* Нужно, чтобы выравнивать теги со свойством display: inline-block по середине по вертикали */
+    vertical-align: middle;
+}
+.aboutus{
+    text-align: center;
+}
+/* 1.Добавить шрифты для .info */
+/* 2. Выровнять теги p по левому краю внутри .info */
+/* 3. Увеличить размер букв у заголовков в .info */
