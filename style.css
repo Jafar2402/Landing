@@ -1,0 +1,54 @@
+body{
+    background-image: url("background gumaranda.jpg");
+    font-family: "Montserrat Alternates", sans-serif;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.527);
+}
+img{
+    width: 800px;
+    height: 500px;
+    border-radius: 5px;
+}
+a{
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    padding: 0 15px;
+    display: inline-block;
+}
+a:hover{
+ background-color: rgba(0, 0, 0, 0.205);   
+}
+h5{
+    color: blue;
+}
+p{
+    color: green;
+}
+h2{
+    color: blueviolet;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.274);
+    text-align: center;
+}
+.hero{
+    background-image: url("Trees gumaranda.jpg");
+    /* Нужно для того, чтобы margin был внутри леса, а не снаружи */
+    overflow: hidden;
+}
+.hero h1{
+    margin: 100px 0 50px;
+    font-size: 50px;
+}
+.hero p{
+    background-color: rgba(255, 255, 255, 0.801);
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding: 15px ;
+    border-radius: 10px;
+    /* Для кнопочки Click it задать свойства по макету */
+}
