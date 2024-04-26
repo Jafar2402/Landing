@@ -1,5 +1,6 @@
 body{
     background-image: url("background gumaranda.jpg");
+    background-size: cover;
     font-family: "Montserrat Alternates", sans-serif;
 }
 h1{
@@ -87,10 +88,93 @@ nav{
 background-image: url("new zealanad.jpg");
 width: 27%;
 background-size: cover;
+display: inline-block;
+text-align: center;
+margin: 10px;
+border-radius: 5px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.496);
 }
 #Germany{
     background-image: url("geramny.jpg");
 }
 #Norway{
     background-image: url("norway.jpg");
+}
+.factory{
+    text-align: center;
+}
+.country h6{
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.767);
+}
+.country ul{
+    background-color: rgba(255, 255, 255, 0.889);
+    list-style: none;
+    line-height: 30px;
+}
+.country a{
+background-color: white;
+line-height: 40px;
+padding: 0 15px;
+margin: 20px 0;
+border-radius: 5px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.442);
+color: #222;
+text-decoration: none;
+display: inline-block;
+}
+.person{
+width: 25%;
+box-shadow: 0 0 15px #2222226f;
+padding: 15px;
+margin: 5px;
+border-radius: 10px;
+display: inline-block;
+
+}
+.person img{
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+    object-fit: cover;
+}
+.people{
+    text-align: center;
+    width: 85%;
+margin: auto;
+}
+.feedback p{
+    text-align: center;
+}
+.feedback input{
+    display: block;
+    margin: auto;
+    margin-bottom: 8px;
+    border: none;
+    height: 40px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 5px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.feedback textarea{
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    width: 90%;
+    max-width: 400px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.feedback button{
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    height: 40px;
+    background-color: white;
+    padding: 0 15px;
+    font-family: "Montserrat Alternates", sans-serif;
 }
