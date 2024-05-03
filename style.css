@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-image: url("background gumaranda.jpg");
     background-size: cover;
@@ -177,4 +180,23 @@ margin: auto;
     background-color: white;
     padding: 0 15px;
     font-family: "Montserrat Alternates", sans-serif;
+}
+@media ( max-width:600px )
+{
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .hero h1{
+        font-size: 30px;
+    }
+    .info{
+        width: 100%;
+    }
+    .country{
+        width: 90%;
+    }
+    .person{
+        width: 90%;
+    }
 }
