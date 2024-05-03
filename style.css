@@ -192,6 +192,7 @@ margin: auto;
     }
     .info{
         width: 100%;
+        margin-right: 0;
     }
     .country{
         width: 90%;
